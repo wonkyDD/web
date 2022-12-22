@@ -1,7 +1,10 @@
+# Backend
 .vs/
 
+# Frontend
+dcinside/
+notion/
 shadertoy/
 twitch/
 youtube/
-notion/
 instagram/
