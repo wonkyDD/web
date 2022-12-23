@@ -15,6 +15,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// @TODO
+// research for OAuth auth in dotnet
+
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
