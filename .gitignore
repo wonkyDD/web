@@ -1,5 +1,4 @@
-# Backend
-.vs/
+*.code-workspace
 
 # Frontend
-shadertoy/
+# shadertoy/
