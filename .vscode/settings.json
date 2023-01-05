@@ -1,6 +1,7 @@
 {
     "files.exclude": {
         "node_modules": true,
+        "WebGL/**/*.js": true
     },
     "editor.formatOnSave": false,
     "[typescript]": {
