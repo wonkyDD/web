@@ -1,4 +1,4 @@
-# web 
-- React/
+# web
+
 - ThreeJS/
 - WebGL/
