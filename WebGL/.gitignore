@@ -1,1 +1,12 @@
-*.js
+testbed/*.js
+
+# dist/
+# src/
+
+# dist/client/*
+# !dist/client/*.html
+# !dist/client/favicon.ico
+# !dist/client/textures
+
+# TODO: prebuilt server.ts
+# dist/server/*
