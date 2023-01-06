@@ -37,6 +37,7 @@
     }
   },
   "rules": {
+    "func-names": "off",
     "no-param-reassign": "off",
     "no-console": "off",
     "linebreak-style": 0,
