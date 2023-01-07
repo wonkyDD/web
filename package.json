@@ -6,15 +6,23 @@
   "author": "wonkydd <dev.csh.01@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "rbuild": "webpack --config ./React/src/client/webpack.prod.js",
+    "rdev": "webpack serve --config ./React/src/client/webpack.dev.js",
+    "rstart": "node ./React/dist/server/server.js",
+    "wbuild": "webpack --config ./WebGL/src/client/webpack.prod.js",
+    "wdev": "webpack serve --config ./WebGL/src/client/webpack.dev.js",
+    "wstart": "node ./WebGL/dist/server/server.js",
     "build": "webpack --config ./ThreeJS/src/client/webpack.prod.js",
     "dev": "webpack serve --config ./ThreeJS/src/client/webpack.dev.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./ThreeJS/dist/server/server.js"
+    "start": "node ./ThreeJS/dist/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@types/dat.gui": "^0.7.7",
     "@types/express": "^4.17.15",
     "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
     "@types/three": "^0.148.0",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
@@ -37,6 +45,8 @@
   "dependencies": {
     "express": "^4.18.2",
     "lil-gui": "^0.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "three": "^0.148.0"
   }
 }
